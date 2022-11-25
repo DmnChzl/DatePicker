@@ -33,5 +33,7 @@ test('getMonthStr', () => {
 });
 
 test('getDateStringFromTimestamp', () => {
-  expect(getDateStringFromTimestamp(1604012400000)).toEqual('2020-10-30');
+  const date = new Date('2020-10-30');
+
+  expect(getDateStringFromTimestamp(date.getTime())).toEqual('2020-10-30');
 });
