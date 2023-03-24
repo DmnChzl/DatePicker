@@ -171,8 +171,6 @@ export default function App() {
 
 ## Preview
 
-> https://raw.githubusercontent.com/DmnChzl/DatePicker/main
-
 ![Purple White](./preview/purpleWhite.png)
 ![Pink Shrine](./preview/pinkShrine.png)
 ![Green Basil](./preview/greenBasil.png)
